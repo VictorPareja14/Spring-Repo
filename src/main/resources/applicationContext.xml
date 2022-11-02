@@ -9,7 +9,7 @@
     <context:property-placeholder location="sport.properties"/>
     <!-- dependencies-->
     <bean id="myFortuneService"
-          class="com.dependencyInjection.Spring.HappyFortuneService">
+          class="com.dependencyInjection.Spring.RandomFortuneService">
     </bean>
 
     <bean id="myCoach"
